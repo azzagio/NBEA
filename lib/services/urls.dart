@@ -1,4 +1,4 @@
-import 'package:hoop/services/apikey/key.dart'; // get your own nba-Api key
+import 'package:nbea/services/apikey/key.dart'; // get your own nba-Api key
 
 class Urls {
   static final String _apiBaseUrl = "https://api-nba-v1.p.rapidapi.com";

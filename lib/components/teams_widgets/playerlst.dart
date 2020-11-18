@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hoop/json/jsons.dart';
-import 'package:hoop/components/teams_widgets/roster.dart';
-import 'package:hoop/services/network.dart';
-import 'package:hoop/services/urls.dart';
+import 'package:nbea/json/jsons.dart';
+import 'package:nbea/components/teams_widgets/roster.dart';
+import 'package:nbea/services/network.dart';
+import 'package:nbea/services/urls.dart';
 import 'package:provider/provider.dart';
 
 class PlayerList extends StatelessWidget {

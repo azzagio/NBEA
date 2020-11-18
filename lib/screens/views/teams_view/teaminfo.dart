@@ -1,10 +1,10 @@
-import 'package:hoop/components/cacheimg.dart';
+import 'package:nbea/components/cacheimg.dart';
 import 'package:flutter/material.dart';
-import 'package:hoop/components/teams_widgets/statcard.dart';
-import 'package:hoop/components/teams_widgets/playerlst.dart';
-import 'package:hoop/services/network.dart';
-import 'package:hoop/services/urls.dart';
-import 'package:hoop/components/connection.dart';
+import 'package:nbea/components/teams_widgets/statcard.dart';
+import 'package:nbea/components/teams_widgets/playerlst.dart';
+import 'package:nbea/services/network.dart';
+import 'package:nbea/services/urls.dart';
+import 'package:nbea/components/connection.dart';
 
 class TeamDetails extends StatefulWidget {
   final dynamic json;

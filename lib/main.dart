@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hoop/screens/layout.dart';
+import 'package:nbea/screens/layout.dart';
 import 'package:provider/provider.dart';
-import 'package:hoop/json/jsons.dart';
+import 'package:nbea/json/jsons.dart';
+import 'package:splashscreen/splashscreen.dart';
 
 void main() {
   runApp(MyApp());

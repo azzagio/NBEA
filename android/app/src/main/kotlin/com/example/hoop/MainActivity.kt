@@ -1,4 +1,4 @@
-package com.example.hoop
+package com.nbea.nbea
 
 import io.flutter.embedding.android.FlutterActivity
 

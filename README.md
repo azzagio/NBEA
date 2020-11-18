@@ -1,4 +1,4 @@
-# Hoop
+# nbea
 
 An NBA sporting app built with flutter(Googles UI framework) and the NBA-API.
 
@@ -24,8 +24,8 @@ class NbaApi {
 
 ## Screenshots
 
-![hoop image1](https://github.com/ngbede/hoop/blob/master/screenshot/screenshot1.png?raw=false)
-![hoop image2](https://github.com/ngbede/hoop/blob/master/screenshot/screenshot2.png?raw=false)
-![hoop image3](https://github.com/ngbede/hoop/blob/master/screenshot/screenshot3_0.png?raw=false)
-![hoop image4](https://github.com/ngbede/hoop/blob/master/screenshot/screenshot4.png?raw=false)
-![hoop image5](https://github.com/ngbede/hoop/blob/master/screenshot/screenshot5.png?raw=false)
+![nbea image1](https://github.com/ngbede/nbea/blob/master/screenshot/screenshot1.png?raw=false)
+![nbea image2](https://github.com/ngbede/nbea/blob/master/screenshot/screenshot2.png?raw=false)
+![nbea image3](https://github.com/ngbede/nbea/blob/master/screenshot/screenshot3_0.png?raw=false)
+![nbea image4](https://github.com/ngbede/nbea/blob/master/screenshot/screenshot4.png?raw=false)
+![nbea image5](https://github.com/ngbede/nbea/blob/master/screenshot/screenshot5.png?raw=false)

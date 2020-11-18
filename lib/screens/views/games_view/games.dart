@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:hoop/services/network.dart';
-import 'package:hoop/services/urls.dart';
-import 'package:hoop/json/jsons.dart';
+import 'package:nbea/services/network.dart';
+import 'package:nbea/services/urls.dart';
+import 'package:nbea/json/jsons.dart';
 import 'package:provider/provider.dart';
-import 'package:hoop/components/games_widgets/gamelst.dart';
-import 'package:hoop/components/connection.dart';
+import 'package:nbea/components/games_widgets/gamelst.dart';
+import 'package:nbea/components/connection.dart';
 
 class Games extends StatelessWidget {
   @override
@@ -26,16 +26,14 @@ class Games extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Icon(
-                        Icons.error,
+                        Icons.replay_rounded,
                         size: 50,
                       ),
-                      Text("An error occured!"),
+                      Text("Click to refresh"),
                     ],
                   ),
                 );
               } else if (snapshot.data == null) {
-                return NoConnection();
-              } else {
                 return Center(
                   child: CircularProgressIndicator(),
                 );

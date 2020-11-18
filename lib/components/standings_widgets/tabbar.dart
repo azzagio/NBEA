@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hoop/components/standings_widgets/table.dart';
+import 'package:nbea/components/standings_widgets/table.dart';
 import '../../constant.dart';
 
 class Bar extends StatelessWidget {

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:hoop/constant.dart';
-import 'package:hoop/components/cacheimg.dart';
-import 'package:hoop/screens/views/teams_view/teaminfo.dart';
+import 'package:nbea/constant.dart';
+import 'package:nbea/components/cacheimg.dart';
+import 'package:nbea/screens/views/teams_view/teaminfo.dart';
 import 'package:provider/provider.dart';
-import 'package:hoop/json/jsons.dart';
+import 'package:nbea/json/jsons.dart';
 
 // Generates list of teams in alphabetical order and displays as a card
 List<Widget> teams(BuildContext context) {

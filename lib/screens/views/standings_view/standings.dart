@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:hoop/json/jsons.dart';
-import 'package:hoop/services/network.dart';
-import 'package:hoop/services/urls.dart';
+import 'package:nbea/json/jsons.dart';
+import 'package:nbea/services/network.dart';
+import 'package:nbea/services/urls.dart';
 import 'package:provider/provider.dart';
-import 'package:hoop/components/standings_widgets/tabbar.dart';
-import 'package:hoop/components/connection.dart';
+import 'package:nbea/components/standings_widgets/tabbar.dart';
+import 'package:nbea/components/connection.dart';
 
 class Standings extends StatefulWidget {
   @override
@@ -43,7 +43,8 @@ class _StandingsState extends State<Standings> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Color(0XFF1F6BA3),
+          title: Center(child: Image.asset('assets/horizon.png', fit: BoxFit.cover, height: 50)),
+          backgroundColor: Colors.orange,
           automaticallyImplyLeading: false, // hides back arrow button
           bottom: TabBar(
             tabs: [

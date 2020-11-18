@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hoop/screens/views/games_view/games.dart';
-import 'package:hoop/screens/views/standings_view/standings.dart';
-import 'package:hoop/screens/views/teams_view/players.dart';
+import 'package:nbea/screens/views/games_view/games.dart';
+import 'package:nbea/screens/views/standings_view/standings.dart';
+import 'package:nbea/screens/views/teams_view/players.dart';
 
 class Layout extends StatefulWidget {
   @override
@@ -29,6 +29,7 @@ class _LayoutState extends State<Layout> {
         body: views.elementAt(_selectedScreen),
         backgroundColor: Color(0XFFEDF1FF),
         bottomNavigationBar: BottomNavigationBar(
+          backgroundColor: Colors.orange[200],
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
               icon: Icon(Icons.table_chart_outlined),

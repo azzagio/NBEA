@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:hoop/constant.dart';
-import 'package:hoop/components/cacheimg.dart';
-import 'package:hoop/components/games_widgets/time.dart';
+import 'package:nbea/constant.dart';
+import 'package:nbea/components/cacheimg.dart';
+import 'package:nbea/components/games_widgets/time.dart';
 
 //TODO: group game cards based on the date played
 class SeasonGames extends StatelessWidget {
